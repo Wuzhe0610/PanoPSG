@@ -8,7 +8,7 @@ PanoPSG combines pixel-level scene annotations with semantic relations in equire
 
 This organization supports research on panoramic scene parsing and relational understanding. Panoptic segmentation addresses which entities are present and where their visible regions lie; scene graph generation extends that representation by describing how the entities relate to one another. PanoPSG brings these complementary descriptions together within the same panoramic scenes.
 
-The dataset described in the accompanying manuscript contains **340 panoramas**, each at **11,968 × 5,984 pixels**, with **10,571 entity nodes** and **6,632 directed relation triplets**. The object vocabulary follows the 133-class COCO Panoptic taxonomy, of which 82 categories are observed, and relations use 21 predicate categories. Together, the image content, entity masks, object labels, and semantic predicates describe both the spatial extent of scene entities and their connections within each panorama.
+PanoPSG contains **340 panoramas**, each at **11,968 × 5,984 pixels**, with **10,571 entity nodes** and **6,632 directed relation triplets**. The object vocabulary follows the 133-class COCO Panoptic taxonomy, of which 82 categories are observed, and relations use 21 predicate categories. Together, the image content, entity masks, object labels, and semantic predicates describe both the spatial extent of scene entities and their connections within each panorama.
 
 ## Highlights
 
@@ -20,7 +20,7 @@ The dataset described in the accompanying manuscript contains **340 panoramas**,
 
 ## Dataset statistics
 
-The following statistics describe the dataset reported in the manuscript. Image-level quantities summarize the visual collection, node and triplet counts summarize the annotated scene graphs, and the category counts describe the object and predicate vocabularies used in those annotations.
+Image-level quantities summarize the visual collection, node and triplet counts summarize the annotated scene graphs, and the category counts describe the object and predicate vocabularies used in those annotations.
 
 | Property | Statistics |
 | --- | ---: |
@@ -34,7 +34,7 @@ The following statistics describe the dataset reported in the manuscript. Image-
 | Predicate categories | 21 |
 | Mean nodes per panorama | 31.09 |
 | Mean relations per panorama | 19.51 |
-| Training / validation panoramas in the manuscript | 272 / 68 |
+| Training / validation panoramas | 272 / 68 |
 
 ## Collection and annotation
 
