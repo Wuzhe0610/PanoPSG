@@ -69,6 +69,24 @@ PanoPSG images and annotations are licensed under **Creative Commons Attribution
 
 Use of licensed material requires appropriate credit, a license link, and an indication of changes. Suggested attribution: **PanoPSG dataset, Wuzhe0610**, with a link to [this repository](https://github.com/Wuzhe0610/PanoPSG).
 
+## Citation
+
+If you find this dataset useful for your research, please consider citing our paper:
+
+[Spherical Geometry-Aware Panoptic Scene Graph Generation for Equirectangular Panoramas](https://arxiv.org/abs/2610.28033)
+
+```bibtex
+@misc{wu2026sphericalgeometryawarepanoptic,
+  title={Spherical Geometry-Aware Panoptic Scene Graph Generation for Equirectangular Panoramas},
+  author={Zhe Wu and Xiaoyan Fei and Xinyi Jiang and Yanxu Wei and Junming Rao and Yihong Yan and Xuewei Li},
+  year={2026},
+  eprint={2610.28033},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2610.28033}
+}
+```
+
 ## Contact
 
 For dataset questions and feedback: **25600003160101@st.sdju.edu.cn**. GitHub Issues may also be used to report problems.
